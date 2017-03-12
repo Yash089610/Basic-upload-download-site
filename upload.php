@@ -1,3 +1,4 @@
+<body style="background-color: rgb(16, 16, 16);color: #827f7f;">
 <?php
 $target_dir = "uploads/";
 $target_file = $target_dir . basename($_FILES["fileToUpload"]["name"]);
@@ -20,3 +21,4 @@ if ($uploadOk == 0) {
 }
 ?>
         <input type="submit" value="Home" onclick="location.href='/index.php'">
+</body>
